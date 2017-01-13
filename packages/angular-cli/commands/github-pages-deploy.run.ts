@@ -65,7 +65,7 @@ export default function githubPagesDeployRun(options: GithubPagesDeployOptions, 
     outputPath: outDir,
     baseHref: baseHref,
     aot: true,
-    vendorChunk: true
+    vendorChunk: true 
   };
 
   const createGithubRepoTask = new CreateGithubRepo({
